@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#create a file to demo grep
 touch file.txt 
 echo -e "1\tA\t100\ttxt" >> file.txt
 echo -e "2\tB\t200\tlog" >> file.txt
