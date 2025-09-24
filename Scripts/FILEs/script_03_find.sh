@@ -16,5 +16,5 @@ find . -iname "fi*.*" -print
 
 echo  "======="
 
-#search file by extencion
+#search file by extension
 find . -name "*.log" -print

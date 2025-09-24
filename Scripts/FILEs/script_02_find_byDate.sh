@@ -1,8 +1,8 @@
 #!/bin/bash
 touch file.txt file2.txt  expenses.log Finance.log Finance.txt
 
-# search file by name
-find . -name "*.*" -type f -ls | grep 'Sep 19' print
+# search file by creation date
+find . -name "*.*" -type f -ls | grep 'Sep 19' 
 
 <<SHELL_EXPLAIN
 find . → Start searching from the current directory
