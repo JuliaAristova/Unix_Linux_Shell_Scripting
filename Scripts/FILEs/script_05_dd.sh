@@ -1,8 +1,4 @@
 #!/bin/bash
-
-#create an empty file
-touch file.txt
-
 <<<SHELL_EXPLAIN
 dd - Copies data from one source to another
 dd if=input_file of=output_file [options]#create file of specified size

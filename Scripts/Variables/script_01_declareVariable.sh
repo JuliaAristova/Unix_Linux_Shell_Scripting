@@ -21,4 +21,7 @@ echo "This is variable: ${var}"
 echo "It's value length is: ${#var}"
 
 #default value
-echo "This is variable ${varX:-"Anonymous"}"  #
+echo "This is variable ${varX:-"Anonymous"}"  
+
+#working with special characters
+echo -e "This will be printed\nin two lines."

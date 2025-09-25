@@ -1,0 +1,8 @@
+m h dom mon dow command
+
+m 		- minute (0-59) 
+h 		- hour (0-23, 0 = midnight)
+dom 	- day of month  (1-31)
+mon		- month (1-12)
+dow		-  day of week (0-6,  Sunday = 0 or 7) 
+command - any shell command, including a call to a shell script.

@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'Hello, World!'
+
 declare -A cars
 cars[BMW]=i8
 cars[Toyota]=Corolla
